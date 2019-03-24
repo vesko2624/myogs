@@ -6,13 +6,17 @@ for(let i of document.querySelectorAll('.field-group')){
     input.onfocus = () => {
         label_class.add('label-focused');
     };
-    input.onblur = () => {
+    input.onchange = input.onblur = () => {
 		input.removeAttribute('class');
         if(!input.value) label.removeAttribute('class');
         else
             if(input.validity.valid) input_class.add('valid');
             else input_class.add('invalid');
-    };
+	};
+	if(input.value){
+		if(input.validity.valid) input_class.add('valid');
+        else input_class.add('invalid');
+	}
 }
 const confirm = document.querySelector('input[id=confirm]');
 const password = document.querySelector('input[id=password]');

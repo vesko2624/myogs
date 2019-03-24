@@ -329,6 +329,12 @@ footer{
   box-shadow: -1.5px 2px 0 1.5px #ff1414 !important;
 }
 
+input:-webkit-autofill, input:-webkit-autofill:hover {
+	transition: background-color 250ms ease-in 9999999s,
+							background-image 250ms ease-in 9999999s,
+							color 250ms ease-in 9999999s,
+							padding 250ms ease-out; 
+}
 /* If the page is not Login or Register */
 .menu{
 	max-width: 500px !important;

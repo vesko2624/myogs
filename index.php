@@ -32,8 +32,8 @@
 					</div>
 				</div>
 				<footer>
-					<input class="btn" type="button" onclick="window.location.href='register.php';" value="Register">
 					<input name="signin-submit" class="btn" type="submit" value="Login">
+					<input class="btn" type="button" onclick="window.location.href='register.php';" value="Register">
 				</footer>
 			</form>
 		<script src="js/moyg.js"></script>

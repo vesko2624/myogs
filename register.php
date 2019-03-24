@@ -56,8 +56,8 @@
 					</div>
 				</div>
 				<footer>
-					<input class="btn" type="button" onclick="window.location.href='index.php';" value="Login">
 					<input class="btn" type="submit" name="signup-submit" value="Register">
+					<input class="btn" type="button" onclick="window.location.href='index.php';" value="Login">
 				</footer>
 			</form>
 		</div>
